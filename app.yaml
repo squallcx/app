@@ -1,0 +1,9 @@
+application: my-kubernetes-gogo
+module: default
+runtime: go
+api_version: go1
+version: 4
+
+handlers:
+  - url: /.*
+    script: _go_app

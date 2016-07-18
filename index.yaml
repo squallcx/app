@@ -1,0 +1,7 @@
+indexes:
+- kind: ShortUrl
+  ancestor: yes
+  properties:
+  - name: stringID
+    direction: desc
+
